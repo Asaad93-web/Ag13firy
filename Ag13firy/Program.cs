@@ -10,6 +10,14 @@ namespace Ag13firy
     {
         static void Main(string[] args)
         {
+            String message = "Hello World";
+            
+
+            int ganzeZahl = 25463;
+            //Console.WriteLine(ganzeZahl);
+            double kommaZahl = 2.15896;
+            bool waheheitswert = true;
+            Console.WriteLine(message + ganzeZahl + kommaZahl + waheheitswert);
         }
     }
 }
